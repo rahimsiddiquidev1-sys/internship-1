@@ -1,5 +1,5 @@
 // backend ka base url
-const BASE_URL = "http://localhost:5000/api";
+const BASE_URL = "https://internship-backened-production.up.railway.app/api";
 
 // chhota helper function jo fetch ka kaam aasaan banata hai
 export async function apiRequest(path, method = "GET", body = null) {
